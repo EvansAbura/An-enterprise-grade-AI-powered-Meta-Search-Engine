@@ -1,0 +1,6 @@
+{
+  "name": "OmniSearch AI",
+  "description": "An enterprise-grade AI Meta-Search Engine and Research Workspace orchestrating multi-AI verification, consensus scoring, and interactive knowledge graphs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
