@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+an enterprise-grade AI-powered Meta Search Engine that combines the intelligence of ChatGPT, Perplexity, Gemini, and multiple web search providers to deliver the most accurate, comprehensive, and reliable answer possible.
 
-# Run and deploy your AI Studio app
+The platform should function as an AI Research Assistant that automatically gathers information from multiple AI models and search engines, validates the information, removes inaccuracies, identifies consensus, and generates a single high-quality response for the user.
 
-This contains everything you need to run your app locally.
+Core Objective
 
-View your app in AI Studio: https://ai.studio/apps/2b4d09f6-44e2-412f-af2d-1e8a5a380fd7
+When a user enters a query:
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Search the web using multiple search providers.
+Send the query simultaneously to ChatGPT, Gemini, and Perplexity.
+Collect all responses.
+Analyze, compare, and cross-reference results.
+Detect contradictions and inconsistencies.
+Identify information supported by multiple sources.
+Verify facts using authoritative websites.
+Generate a summarized knowledge graph.
+Produce the most accurate and detailed final response.
+Display confidence scores and source credibility ratings.
